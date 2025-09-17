@@ -1,0 +1,33 @@
+https://github.com/profugohenrique/spoincd
+# Passos para Execução de um Experimento
+# (1) Testar a implementação do modelo
+# Antes de iniciar a experimentação, verifique se o modelo está corretamente implementado. Isso inclui testes unitários, verificação da consistência de entrada e saída, e análise de overfitting em pequenos subconjuntos para validar o funcionamento.
+# (2) Coletar uma amostra dos dados
+# Defina a população-alvo e descreva o processo de amostragem. Certifique-se de que a amostra é representativa do problema que está sendo estudado.
+# (3) Executar o experimento
+# Realize os testes de desempenho do modelo conforme o plano experimental. Isso inclui treinar, validar e avaliar o modelo em múltiplas execuções.
+# (4) Reproduzir o experimento (Reprodução/Replicação)
+# Realize múltiplas execuções com diferentes sementes aleatórias e particionamentos dos dados.
+# Teste o modelo em múltiplos conjuntos de validação, gerando uma amostra de erros.
+# Salve os resultados intermediários: como as sementes dos geradores aleatórios, os pesos dos modelos treinados, métricas parciais e logs.
+# Isso garante que o experimento pode ser replicado no futuro.
+# (5) Fazer a análise estatística dos resultados
+# Aplique técnicas estatísticas (ex.: teste t, intervalo de confiança, análise de variância) para comparar os modelos e validar a significância dos resultados.
+# Gere graficos para as analises
+# (6) Estimar o erro em dados não vistos (generalização)
+# Combine os conjuntos de treino + validação para treinar o modelo.
+# Use o conjunto de teste para estimar o erro final.
+# Esse é o único ponto do processo em que o conjunto de teste deve ser utilizado — exclusivamente para avaliar a capacidade de generalização do modelo final.
+# (7) Treinar a versão final do modelo
+# Utilize todos os dados disponíveis (treino + validação + teste) para treinar a versão definitiva do modelo que será entregue ou implantada.
+# (8) Elaborar o relatório do experimento
+# Documente todo o processo, incluindo:
+# População-alvo
+# Processo de amostragem
+# Pré-processamento
+#Configurações dos experimentos
+# Justificativas para as escolhas
+#Resultados
+#Análise estatística
+#Limitações e próximos passos
+
